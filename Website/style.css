@@ -11,6 +11,12 @@
     box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
 }
 
+@media only screen and (max-width: 600px) {
+    .form {
+        width: 375px;
+    }
+}
+
 .form .title {
     color: #da373d;
     font-size: 30px;
